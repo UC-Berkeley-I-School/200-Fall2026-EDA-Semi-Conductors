@@ -1,0 +1,16 @@
+[project]
+name = "mids-datasci200-starter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel<7.0.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.3",
+    "seaborn>=0.13.2",
+]
+
+[tool.ruff]
+line-length = 120
